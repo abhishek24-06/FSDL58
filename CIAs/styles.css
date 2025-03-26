@@ -1,0 +1,16 @@
+/* Basic Button Styling */
+.hover-button {
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;  /* Smooth transition */
+}
+
+/* Hover Effect */
+.hover-button:hover {
+    background-color: red;  /* Change color */
+    transform: scale(1.2);  /* Increase size */
+}
